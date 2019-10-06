@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Initializing pre object like configData , excelData provider and html reports .. ]]>
+    </line>
+    <line>
+      <![CDATA[prequisit is ready start the application...]]>
+    </line>
+    <line>
+      <![CDATA[Before navigating to browser, we are getting the browsername to launch respective browser.. ]]>
+    </line>
+    <line>
+      <![CDATA[launching the browser:   Chrome]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to url:  https://www.crmpro.com/]]>
+    </line>
+    <line>
+      <![CDATA[initializing login page object ]]>
+    </line>
+    <line>
+      <![CDATA[initializing web element on login page ..]]>
+    </line>
+    <line>
+      <![CDATA[Create login Test before start it..]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end...]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66943" started-at="2019-10-05T06:52:35Z" finished-at="2019-10-05T06:53:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66943" started-at="2019-10-05T06:52:35Z" finished-at="2019-10-05T06:53:42Z">
+      <class name="com.VisionIT.FreeCrmPro.TestCases.LoginPageTC">
+        <test-method status="PASS" signature="intitialize()[pri:0, instance:com.VisionIT.FreeCrmPro.TestCases.LoginPageTC@39c0f4a]" name="intitialize" is-config="true" duration-ms="2631" started-at="2019-10-05T06:52:32Z" finished-at="2019-10-05T06:52:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Initializing pre object like configData , excelData provider and html reports .. ]]>
+            </line>
+            <line>
+              <![CDATA[prequisit is ready start the application...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- intitialize -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.VisionIT.FreeCrmPro.TestCases.LoginPageTC@39c0f4a]" name="setUp" is-config="true" duration-ms="25362" started-at="2019-10-05T06:52:35Z" finished-at="2019-10-05T06:53:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Before navigating to browser, we are getting the browsername to launch respective browser.. ]]>
+            </line>
+            <line>
+              <![CDATA[launching the browser:   Chrome]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to url:  https://www.crmpro.com/]]>
+            </line>
+            <line>
+              <![CDATA[initializing login page object ]]>
+            </line>
+            <line>
+              <![CDATA[initializing web element on login page ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyloginToCrmProTest(java.lang.String, java.lang.String)[pri:4, instance:com.VisionIT.FreeCrmPro.TestCases.LoginPageTC@39c0f4a]" name="verifyloginToCrmProTest" duration-ms="37875" started-at="2019-10-05T06:53:00Z" data-provider="getExcelData" finished-at="2019-10-05T06:53:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayuri_257]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mayuri$257]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-OM2QHAP', ip: '192.168.2.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vasant\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:11861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 917e8061589ce345224491dcc2fb9732
+*** Element info: {Using=xpath, value=/html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-OM2QHAP', ip: '192.168.2.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vasant\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:11861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 917e8061589ce345224491dcc2fb9732
+*** Element info: {Using=xpath, value=/html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.VisionIT.FreeCrmPro.TestCases.LoginPageTC.verifyloginToCrmProTest(LoginPageTC.java:92)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Create login Test before start it..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyloginToCrmProTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.VisionIT.FreeCrmPro.TestCases.LoginPageTC@39c0f4a]" name="tearDown" is-config="true" duration-ms="3346" started-at="2019-10-05T06:53:38Z" finished-at="2019-10-05T06:53:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginToCrmProTest status=FAILURE method=LoginPageTC.verifyloginToCrmProTest(java.lang.String, java.lang.String)[pri:4, instance:com.VisionIT.FreeCrmPro.TestCases.LoginPageTC@39c0f4a] output=Create login Test before start it..]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.VisionIT.FreeCrmPro.TestCases.LoginPageTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
