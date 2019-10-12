@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.VisionIT.FreeCrmPro.TestCases.LoginPageTC">
+      <class name="listenersDemo.FacebookLoginpagTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyloginToCrmProTest" invocation-numbers="0"/>
-          <include name="intitialize"/>
-          <include name="setUp"/>
+          <include name="verify_FB_LoginPage_Title1"/>
         </methods>
-      </class> <!-- com.VisionIT.FreeCrmPro.TestCases.LoginPageTC -->
+      </class> <!-- listenersDemo.FacebookLoginpagTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
